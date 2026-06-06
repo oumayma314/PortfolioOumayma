@@ -1,6 +1,26 @@
 import { motion } from "framer-motion";
 import { ArrowRight, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
+
+function ProfileAvatar() {
+  const [imgError, setImgError] = useState(false);
+  if (imgError) {
+    return (
+      <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-2xl font-display font-bold text-white shadow-lg flex-shrink-0">
+        OD
+      </div>
+    );
+  }
+  return (
+    <img
+      src="/profile.jpg"
+      alt="Oumayma Derbala"
+      onError={() => setImgError(true)}
+      className="w-20 h-20 rounded-full object-cover border-2 border-primary shadow-lg flex-shrink-0"
+    />
+  );
+}
 
 export function Hero() {
   return (
@@ -47,9 +67,7 @@ export function Hero() {
           <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-blue-500/20 blur-3xl rounded-full" />
           <div className="relative bg-card/80 backdrop-blur-xl border border-border rounded-2xl p-8 shadow-2xl hover:-translate-y-2 transition-transform duration-500">
             <div className="flex items-center gap-6 mb-8">
-              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-2xl font-display font-bold text-white shadow-lg">
-                OD
-              </div>
+              <ProfileAvatar />
               <div>
                 <h3 className="text-2xl font-display font-bold text-foreground">Oumayma Derbala</h3>
                 <p className="text-primary font-medium">Mobile & Fullstack Developer</p>
