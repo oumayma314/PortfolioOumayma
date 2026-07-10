@@ -4,7 +4,7 @@ import { Briefcase } from "lucide-react";
 const experiences = [
   {
     role: "Restaurant Management Platform",
-    period: "Sep 2025–Feb 2026",
+    period: "Oct 2025–Feb 2026",
     company: "ExaDev, Sfax",
     tech: "React Native · Laravel",
     description: "Development of a restaurant management platform: reservations, orders, real-time delivery tracking, customer/delivery-rider apps, and admin dashboard."
@@ -18,7 +18,7 @@ const experiences = [
   },
   {
     role: "IIT Mobile App",
-    period: "Apr 2025–Present",
+    period: "Jul 2025–Present",
     company: "ExaDev, Sfax",
     tech: "React Native · Laravel API · PostgreSQL",
     description: "Development of the official IIT mobile application: schedules, grades, calendar, notifications, library, and administrative requests."
