@@ -3,25 +3,32 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    role: "Restaurant Management System",
+    role: "Restaurant Management Platform",
     period: "Sep 2025–Feb 2026",
     company: "ExaDev, Sfax",
     tech: "React Native · Laravel",
-    description: "Full-featured platform for restaurant reservations, delivery ordering, and real-time delivery tracking with live geolocation. Includes admin dashboard, rider app, and customer mobile app with push notifications."
+    description: "Development of a restaurant management platform: reservations, orders, real-time delivery tracking, customer/delivery-rider apps, and admin dashboard."
   },
   {
-    role: "Automated Medical Platform",
+    role: "Intelligent Medical Platform",
     period: "Feb 2026–May 2026",
     company: "ExaDev, Sfax",
     tech: "React Native · AI/NLP · MySQL",
-    description: "Mobile app allowing patients to input symptoms; AI analyzes and recommends actions and suggests doctors registered on the platform. Web dashboard helps doctors manage appointments, secretaries, lab engagements, and medical records."
+    description: "Development of a medical platform integrating an AI chatbot, appointment management, medical records, and dedicated spaces for healthcare professionals."
   },
   {
     role: "IIT Mobile App",
     period: "Apr 2025–Present",
     company: "ExaDev, Sfax",
     tech: "React Native · Laravel API · PostgreSQL",
-    description: "Official mobile application for IIT students and staff. Features include course schedules, grades, academic calendar, push notifications, library access, and administrative document requests."
+    description: "Development of the official IIT mobile application: schedules, grades, calendar, notifications, library, and administrative requests."
+  },
+  {
+    role: "Poultry Farm Management App",
+    period: "Aug 2025–Oct 2025",
+    company: "ExaDev, Sfax",
+    tech: "React Native · Laravel",
+    description: "Development of a farm management solution: stock tracking, egg production, sales, chicken mortality, buildings, and feed resource management."
   },
   {
     role: "Mobile Developer (Cross-Platform)",
