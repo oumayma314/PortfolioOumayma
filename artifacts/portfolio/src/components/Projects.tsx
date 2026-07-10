@@ -18,6 +18,11 @@ const projects = [
     tags: ["React Native", "Laravel API", "PostgreSQL", "Push Notifications"]
   },
   {
+    title: "Poultry Farm Management App",
+    description: "Farm management solution: stock tracking, egg production, sales, chicken mortality, buildings, and feed resource management.",
+    tags: ["React Native", "Laravel", "MySQL"]
+  },
+  {
     title: "Winkels Marketplace",
     description: "AI-powered conversational chatbot integrated into mobile app.",
     tags: ["React Native", "Laravel", "NLP"]
