@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Code2 } from "lucide-react";
+import { Code2 } from "lucide-react";
 
 const projects = [
   {
@@ -102,9 +102,6 @@ export function Projects() {
                       {tag}
                     </span>
                   ))}
-                </div>
-                <div className="flex items-center text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0">
-                  View details <ExternalLink className="w-4 h-4 ml-1" />
                 </div>
               </div>
             </motion.div>
